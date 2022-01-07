@@ -1,0 +1,32 @@
+.b-nav{
+    background-color: black;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.b-icons{
+    display: flex;
+    /* border: 1px solid white; */
+    width:150px;
+    justify-content: space-around;
+}
+
+.b-text{
+    font-size: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 457px){
+
+    .b-text{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+.project{
+    display: flex;
+    justify-content: center;
+    height: 110vh;
+    text-align: center;
+    background-color: black;
+    /* border: 3px solid red; */
+}
+
+.pro-wrap{
+    
+    /* border: 1px solid white; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-header{
+    /* border: 1px solid rgb(79, 190, 224); */
+    padding-top: 6vh;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+            font-size: 55px;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: white;
+}
+
+.pro-component-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    /* border: 3px solid yellow; */
+    margin-top: 7vh;
+
+}
+
+.pc{
+    width:23vw;
+    border: 1px solid white;
+    height: 260px;
+    background-color: white;
+    /* border: 5px solid rgb(108, 226, 134); */
+    /* margin-left: 3px; */
+    
+}
+
+.pc:hover{
+    transform: scale(1.02);
+}
+
+.project-data-heading, .project-data-content{
+    color: black;
+    background-color: white;
+}
+
+
+.project-data-heading{
+    font-size: 27px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 973px){
+
+    .pc{
+        height: 220px;
+    }
+
+    .project-data-heading{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 718px){
+
+
+    .project-data-heading{
+        font-size: 20px;
+    }
+}
+  
+@media screen and (max-width: 718px){
+
+
+    .project-data-content{
+        font-size: 13px;
+    }
+
+    .pc{
+        height: 200px;
+    }
+}
+  
+  
+@media screen and (max-width: 406px){
+
+
+    .project-data-heading{
+        font-size: 15px;
+    }
+    .project-data-content{
+        font-size: 10px;
+    }
+
+    .pc{
+        height: 150px;
+        width: 30vw;
+    }
+}
+  

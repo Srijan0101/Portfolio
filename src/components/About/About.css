@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.about{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+}
+
+.abt-wrap{
+    
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.abt-header{
+    padding-top: 15vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: white;
+            font-size: 55px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: black;  
+}
+
+.abt-text1, .abt-text2{
+    background-color: white;
+    font-size: 23px;
+    color: black;
+    padding-top: 8vh;
+}
+
+.abt-text2{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 993px){
+
+    .abt-wrap{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 508px){
+
+    .abt-text1, .abt-text2{
+        font-size: 23px;
+        padding-top: 4vh;
+    }
+}
+  
+@media screen and (max-width: 398px){
+
+    .abt-text1, .abt-text2{
+        font-size: 20px;
+        padding-top: 4vh;
+    }
+}
+  

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+.intro{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    height: 87vh;
+    text-align: center;
+    background-color: black;
+}
+
+.textIn{
+    width: 70%;
+  }
+  
+.name{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+}
+
+h4{
+  font-weight: 100;
+}
+
+.intro-btn{
+  margin-top: 30vh;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+}
+
+.intro-btn:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.line-1{
+  position: relative; 
+  top: 5%;
+  width: 33.5em;
+  height: 1.4em;
+  margin: 0 auto;
+  /* margin-left: -20%; */
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  transform: translateY(-50%);   
+  overflow: hidden; 
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 600ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 33.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 960px){
+
+  .name{
+    font-size: 45px;
+  }
+  .line-1{
+    margin-left: -15%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 718px){
+
+  .line-1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 398px){
+
+  .name{
+    font-size: 35px;
+  }
+  
+}
+
